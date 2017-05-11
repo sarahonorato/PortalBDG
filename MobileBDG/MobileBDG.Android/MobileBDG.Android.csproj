@@ -96,6 +96,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Localize.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Renderer\CustomNavigationRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
