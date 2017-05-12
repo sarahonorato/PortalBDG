@@ -108,7 +108,6 @@
     <None Include="MobileBDG.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\BDG.jpg" />
     <Content Include="Assets\ic_video.png" />
     <Content Include="Assets\ic_rotabdg.png" />
     <Content Include="Assets\ic_playlist.png" />
