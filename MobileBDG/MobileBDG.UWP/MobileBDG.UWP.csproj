@@ -113,6 +113,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\ic_user.png" />
     <Content Include="Assets\ic_video.png" />
     <Content Include="Assets\ic_rotabdg.png" />
     <Content Include="Assets\ic_playlist.png" />

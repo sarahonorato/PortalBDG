@@ -135,6 +135,9 @@
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="MeuBDG" xml:space="preserve">
+    <value>Meu BDG</value>
+  </data>
   <data name="Ouca" xml:space="preserve">
     <value>Ouça</value>
   </data>

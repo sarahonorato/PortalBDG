@@ -132,6 +132,9 @@
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="MeuBDG" xml:space="preserve">
+    <value>Meu BDG</value>
+  </data>
   <data name="Ouca" xml:space="preserve">
     <value>Ouça</value>
   </data>
@@ -140,6 +143,9 @@
   </data>
   <data name="Rota" xml:space="preserve">
     <value>Rota BDG</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
   </data>
   <data name="Videos" xml:space="preserve">
     <value>Vídeos</value>

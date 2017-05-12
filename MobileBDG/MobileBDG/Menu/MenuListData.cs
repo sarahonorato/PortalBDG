@@ -19,6 +19,13 @@ namespace MobileBDG.Menu
 
             this.Add(new MenuItem()
             {
+                Titulo = Resx.Resources.MeuBDG,
+                Icon = "ic_user.png",
+                TargetType = typeof(MainPage)
+            });
+
+            this.Add(new MenuItem()
+            {
                 Titulo = Resx.Resources.Ouca,
                 Icon = "ic_headphone.png",
                 TargetType = typeof(MainPage)

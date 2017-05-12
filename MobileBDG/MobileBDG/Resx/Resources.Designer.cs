@@ -116,6 +116,15 @@ namespace MobileBDG.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Meu BDG.
+        /// </summary>
+        internal static string MeuBDG {
+            get {
+                return ResourceManager.GetString("MeuBDG", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Ouça.
         /// </summary>
         internal static string Ouca {
