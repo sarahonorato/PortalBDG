@@ -6,7 +6,7 @@
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
         <StackLayout Margin="0,20,0,0">
             <Image Source="bdgLogoBlack.png" HeightRequest="80" />
-            <Label x:Name="lblTitulo" Text="Cadastre-se e faça parte da nova música" HorizontalOptions="Center" />
+            <Label x:Name="lblTitulo" FontAttributes="Bold" Text="Cadastre-se e faça parte da nova música" HorizontalOptions="Center" />
         </StackLayout>
         <StackLayout Margin="0,30,0,0">
             <Entry Placeholder="Usuario" Text="" Style="{DynamicResource TextBox}" x:Name="txtUsuario" WidthRequest="180" Margin="10,0,10,0" />

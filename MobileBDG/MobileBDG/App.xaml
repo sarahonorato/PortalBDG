@@ -33,7 +33,7 @@
 
             <!-- Textbox -->
             <Style x:Key="TextBox" TargetType="Entry">
-                <Setter Property="TextColor" Value="#FAFFBD" />
+                <Setter Property="TextColor" Value="Black" />
                 <Setter Property="FontSize" Value="20" />
                 <Setter Property="BackgroundColor" Value="White" />
             </Style>

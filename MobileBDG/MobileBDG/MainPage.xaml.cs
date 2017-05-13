@@ -42,7 +42,7 @@ namespace MobileBDG
         {
             try
             {
-                Navigation.PushAsyncToPage(new Home(), this);
+                Navigation.PushAsyncToPage(new NovaConta(), this);
             }
             catch (Exception ex)
             {

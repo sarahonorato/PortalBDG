@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileBDG.NovaConta">
+    <ScrollView>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+            <StackLayout Margin="0,20,0,0">
+                <Image Source="bdgLogoBlack.png" HeightRequest="80" />
+                <Label x:Name="lblTitulo" FontAttributes="Bold" Text="Cadastre-se e faça parte da nova música" HorizontalOptions="Center" />
+            </StackLayout>
+            <StackLayout Margin="0,30,0,0">
+                    <Label x:Name="lblCriarConta" Style="{DynamicResource Label}" FontAttributes="Bold" Text="Criar uma conta" HorizontalOptions="Center" />
+                <Entry Placeholder="Nome" Text="" Style="{DynamicResource TextBox}" x:Name="txtNome" WidthRequest="180" Margin="10,0,10,0" />
+                <Entry Placeholder="E-mail" Keyboard="Email" Text="" Style="{DynamicResource TextBox}" x:Name="txtEmail" WidthRequest="180" Margin="10,10,10,0" />
+                <Entry Placeholder="Senha" IsPassword="True" Text="" Style="{DynamicResource TextBox}" x:Name="txtSenha" WidthRequest="180" Margin="10,10,10,0" />
+                <Entry Placeholder="Confirmação de Senha" IsPassword="True" Text="" Style="{DynamicResource TextBox}" x:Name="txtConfSenha" WidthRequest="180" Margin="10,10,10,0" />
+                <Picker Title="Selecione o Sexo" x:Name="cboSexo" Style="{DynamicResource DropDownList}" WidthRequest="180" Margin="10,10,10,0" ></Picker>
+                <Entry Placeholder="Data de Nascimento (dd/mm/yyyy)" Text="" Style="{DynamicResource TextBox}" x:Name="txtDataNasc" WidthRequest="180" Margin="10,10,10,0" />
+                    <Picker Title="Selecione o País" x:Name="cboPais" Style="{DynamicResource DropDownList}" WidthRequest="180" Margin="10,10,10,0" ></Picker>
+                    <Picker Title="Selecione o Estado" x:Name="cboEstado" IsVisible="False" Style="{DynamicResource DropDownList}" WidthRequest="180" Margin="10,10,10,0" ></Picker>
+                </StackLayout>
+            <StackLayout Margin="0,20,0,0">
+                <Button Clicked="btnOk_Clicked" Text="Cadastre-se" Style="{DynamicResource BotaoCriarConta}" x:Name="btnCadastro" WidthRequest="150" Margin="20,10,20,0" ></Button>
+                <Button Clicked="btnEntrar_Clicked" Text="Já possui uma conta? Entrar" Style="{DynamicResource BotaoRecuperaSenha}" x:Name="btnEntrar" WidthRequest="150" Margin="30,0,30,0" ></Button>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
