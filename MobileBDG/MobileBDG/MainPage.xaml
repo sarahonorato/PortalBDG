@@ -3,14 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MobileBDG"
              x:Class="MobileBDG.MainPage">
-    <ScrollView>
-        <StackLayout Style="{DynamicResource PainelPrincipal}">
-            <StackLayout Style="{DynamicResource PainelTitulo}">
-                <Label Text="Home" Style="{DynamicResource LabelTitulo}" x:Name="lblTitulo"  />
-            </StackLayout>
-            <StackLayout>
-
-            </StackLayout>
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+        <StackLayout Margin="0,20,0,0">
+            <Image Source="bdgLogoBlack.png" HeightRequest="80" />
+            <Label x:Name="lblTitulo" Text="Cadastre-se e faça parte da nova música" HorizontalOptions="Center" />
         </StackLayout>
-    </ScrollView>
+        <StackLayout Margin="0,30,0,0">
+            <Entry Placeholder="Usuario" Text="" Style="{DynamicResource TextBox}" x:Name="txtUsuario" WidthRequest="180" Margin="10,0,10,0" />
+            <Entry Placeholder="Senha" IsPassword="True" Text="" Style="{DynamicResource TextBox}" x:Name="txtSenha" WidthRequest="180" Margin="10,10,10,0" />
+            <Button Clicked="btnEntrar_Clicked" Text="Entrar" Style="{DynamicResource BotaoPadrao}" x:Name="btnSalvar" WidthRequest="150" Margin="30,10,30,10" ></Button>
+            <Button Clicked="btnRecuperaSenha_Clicked" Text="Esqueci minha senha" Style="{DynamicResource BotaoRecuperaSenha}" x:Name="btnRecupera" WidthRequest="150" Margin="30,0,30,0" ></Button>
+        </StackLayout>
+        <StackLayout Margin="0,20,0,0">
+            <Button Clicked="btnCriarConta_Clicked" Text="Não possui uma conta? Cadastre-se!" Style="{DynamicResource BotaoCriarConta}" x:Name="btnCriarConta" WidthRequest="150" Margin="20,10,20,0" ></Button>
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

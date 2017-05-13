@@ -20,7 +20,7 @@ namespace MobileBDG.Menu
 
             Master = menuPage;
 
-            Detail = new NavigationPage(new MainPage());
+            Detail = new NavigationPage(new Home());
 
             MasterBehavior = MasterBehavior.Popover;
         }

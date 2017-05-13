@@ -33,13 +33,13 @@
 
             <!-- Textbox -->
             <Style x:Key="TextBox" TargetType="Entry">
-                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
+                <Setter Property="TextColor" Value="#FAFFBD" />
                 <Setter Property="FontSize" Value="20" />
                 <Setter Property="BackgroundColor" Value="White" />
             </Style>
             <!-- TextArea -->
             <Style x:Key="TextArea" TargetType="Editor">
-                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
+                <Setter Property="TextColor" Value="Black" />
                 <Setter Property="FontSize" Value="20" />
                 <Setter Property="BackgroundColor" Value="White" />
             </Style>
@@ -58,8 +58,20 @@
             </Style>
             <!-- Botão -->
             <Style x:Key="BotaoPadrao" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#2b547e" />
+                <Setter Property="BackgroundColor" Value="#1ab667" />
                 <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="180" />
+                <Setter Property="HeightRequest" Value="50" />
+            </Style>
+            <Style x:Key="BotaoCriarConta" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#4cb6cb" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="WidthRequest" Value="180" />
+                <Setter Property="HeightRequest" Value="50" />
+            </Style>
+            <Style x:Key="BotaoRecuperaSenha" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="TextColor" Value="#666666" />
                 <Setter Property="WidthRequest" Value="180" />
                 <Setter Property="HeightRequest" Value="50" />
             </Style>
