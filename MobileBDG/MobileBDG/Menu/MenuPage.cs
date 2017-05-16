@@ -16,7 +16,7 @@ namespace MobileBDG.Menu
             var label = new Label
             {
                 TextColor = Color.FromHex("7d94a4"),
-                Text = Resx.Resources.DescubraNovo,
+                Text = Resx.Menu.Title,
                 FontSize = 16,
                 Margin = 2
             };            

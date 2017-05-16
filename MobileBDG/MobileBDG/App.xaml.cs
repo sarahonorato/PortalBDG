@@ -19,7 +19,29 @@ namespace MobileBDG
             {
                 // determine the correct, supported .NET culture
                 var ci = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
-                Resx.Resources.Culture = ci; // set the RESX for resource localization
+                // set the RESX for resource localization
+                Resx.Embed.Culture = ci;
+                Resx.Login.Culture = ci;
+                Resx.Menu.Culture = ci;
+                Resx.ProfileEdit.Culture = ci;
+                Resx.ProfileEditAlbum.Culture = ci;
+                Resx.ProfileEditArtist.Culture = ci;
+                Resx.ProfileEditEvent.Culture = ci;
+                Resx.ProfileEditSong.Culture = ci;
+                Resx.ProfileEditVideo.Culture = ci;
+                Resx.ProfileEditUser.Culture = ci;
+                Resx.ProfileEditEvent.Culture = ci;
+                Resx.SearchResults.Culture = ci;
+                Resx.Shared.Strings.Culture = ci;
+                Resx.Models.EditAlbumValidation.Culture = ci;
+                Resx.Models.EditArtistValidation.Culture = ci;
+                Resx.Models.EditEventValidation.Culture = ci;
+                Resx.Models.EditMusicValidation.Culture = ci;
+                Resx.Models.EditPlaylistValidation.Culture = ci;
+                Resx.Models.EditProfileSecutityValidation.Culture = ci;
+                Resx.Models.EditSongValidation.Culture = ci;
+                Resx.Models.EditVideoValidation.Culture = ci;
+                Resx.Models.SignUpFormValidation.Culture = ci;
                 DependencyService.Get<ILocalize>().SetLocale(ci); // set the Thread for locale-aware methods
             }
 

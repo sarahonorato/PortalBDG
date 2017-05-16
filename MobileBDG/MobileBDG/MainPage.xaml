@@ -11,7 +11,7 @@
         <StackLayout Margin="0,30,0,0">
             <Entry Style="{DynamicResource TextBox}" x:Name="txtUsuario" WidthRequest="180" Margin="10,0,10,0" />
             <Entry IsPassword="True" Style="{DynamicResource TextBox}" x:Name="txtSenha" WidthRequest="180" Margin="10,10,10,0" />
-            <Button Clicked="btnEntrar_Clicked" Style="{DynamicResource BotaoPadrao}" x:Name="btnSalvar" WidthRequest="150" Margin="30,10,30,10" ></Button>
+            <Button Clicked="btnEntrar_Clicked" Style="{DynamicResource BotaoPadrao}" x:Name="btnEntrar" WidthRequest="150" Margin="30,10,30,10" ></Button>
             <Button Clicked="btnRecuperaSenha_Clicked" Style="{DynamicResource BotaoRecuperaSenha}" x:Name="btnRecupera" WidthRequest="150" Margin="30,0,30,0" ></Button>
         </StackLayout>
         <StackLayout Margin="0,20,0,0">

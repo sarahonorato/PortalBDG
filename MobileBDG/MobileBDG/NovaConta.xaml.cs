@@ -15,15 +15,32 @@ namespace MobileBDG
         public NovaConta()
         {
             InitializeComponent();
+            Traducao();
             ConfigCboSexo();
             ConfigCboPais();
+        }
+
+        private void Traducao()
+        {
+            lblTitulo.Text = Resx.Login.Title;
+            lblCriarConta.Text = Resx.Login.TextCreateAccount;
+            txtNome.Placeholder = Resx.Login.DataField_Name_Label;
+            txtEmail.Placeholder = Resx.Login.DataField_Email_Label;
+            txtSenha.Placeholder = Resx.Login.DataField_Password_Label;
+            txtConfSenha.Placeholder = Resx.Login.DataField_PasswordConfirmation_Label;
+            cboSexo.Title = Resx.Login.DataField_Gender_OptionDefault;
+            txtDataNasc.Placeholder = Resx.Login.DataField_BirthDate_Label;
+            cboPais.Title = Resx.Login.DataField_Country_OptionDefault;
+            cboEstado.Title = Resx.Login.DataField_State_OptionDefault;
+            btnCadastro.Text = Resx.Login.LabelSignUp;
+            btnEntrar.Text = Resx.Login.TextAlreadyHaveAccount + " " + Resx.Login.TextLoginButton;
         }
 
         private async void btnOk_Clicked(object sender, EventArgs e)
         {
             try
             {
-                await DisplayAlert("BDG", "Cadastro finalizado com sucesso!", "Ok");
+                await DisplayAlert("BDG", Resx.Login.ReturnSignUpSuccess, "Ok");
                 Navigation.PushAsyncToPage(new Home(), this);
             }
             catch (Exception ex)

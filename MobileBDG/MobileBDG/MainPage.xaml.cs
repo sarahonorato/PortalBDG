@@ -18,6 +18,11 @@ namespace MobileBDG
         private void Traducao()
         {
             lblTitulo.Text = Resx.Login.Title;
+            txtUsuario.Placeholder = Resx.Login.DataField_Email_Label;
+            txtSenha.Placeholder = Resx.Login.DataField_Password_Label;
+            btnEntrar.Text = Resx.Login.TextLoginButton;
+            btnRecupera.Text = Resx.Login.TextForgotPasswordButton;
+            btnCriarConta.Text = Resx.Login.TextDontHaveAccount + " " + Resx.Login.LabelSignUp;
         }
 
         private async void btnEntrar_Clicked(object sender, EventArgs e)
