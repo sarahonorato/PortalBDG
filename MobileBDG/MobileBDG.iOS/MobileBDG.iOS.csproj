@@ -143,37 +143,37 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_video.png" />
+    <AndroidResource Include="Resources\ic_video.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_rotabdg.png" />
+    <AndroidResource Include="Resources\ic_rotabdg.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_playlist.png" />
+    <AndroidResource Include="Resources\ic_playlist.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ic_menubar.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_home.png" />
+    <AndroidResource Include="Resources\ic_home.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_headphone.png" />
+    <AndroidResource Include="Resources\ic_headphone.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_estilos.png" />
+    <AndroidResource Include="Resources\ic_estilos.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_calendar.png" />
+    <AndroidResource Include="Resources\ic_calendar.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_blog.png" />
+    <AndroidResource Include="Resources\ic_blog.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_bdglive.png" />
+    <AndroidResource Include="Resources\ic_bdglive.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_user.png" />
+    <AndroidResource Include="Resources\ic_user.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\bdgLogoBlack.png" />
