@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BDG.WEB.Resources {
+namespace MobileBDG.Resx {
     using System;
+    using System.Reflection;
     
     
     /// <summary>
@@ -22,7 +23,7 @@ namespace BDG.WEB.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class ProfileEditVideo {
+    internal class ProfileEditVideo {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +37,10 @@ namespace BDG.WEB.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BDG.WEB.Resources.ProfileEditVideo", typeof(ProfileEditVideo).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MobileBDG.Resx.ProfileEditVideo", typeof(ProfileEditVideo).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +52,7 @@ namespace BDG.WEB.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +64,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Confirm delete this video?.
         /// </summary>
-        public static string TextConfirmDelete {
+        internal static string TextConfirmDelete {
             get {
                 return ResourceManager.GetString("TextConfirmDelete", resourceCulture);
             }
@@ -72,7 +73,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Delete Video.
         /// </summary>
-        public static string TextDeleteButton {
+        internal static string TextDeleteButton {
             get {
                 return ResourceManager.GetString("TextDeleteButton", resourceCulture);
             }
@@ -81,7 +82,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to New VIdeo.
         /// </summary>
-        public static string TextNewButton {
+        internal static string TextNewButton {
             get {
                 return ResourceManager.GetString("TextNewButton", resourceCulture);
             }
@@ -90,7 +91,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Artist.
         /// </summary>
-        public static string TextOrderArtist {
+        internal static string TextOrderArtist {
             get {
                 return ResourceManager.GetString("TextOrderArtist", resourceCulture);
             }
@@ -99,7 +100,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Title.
         /// </summary>
-        public static string TextOrderTitle {
+        internal static string TextOrderTitle {
             get {
                 return ResourceManager.GetString("TextOrderTitle", resourceCulture);
             }
@@ -108,7 +109,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Views.
         /// </summary>
-        public static string TextOrderTotal {
+        internal static string TextOrderTotal {
             get {
                 return ResourceManager.GetString("TextOrderTotal", resourceCulture);
             }
@@ -117,7 +118,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Video Source.
         /// </summary>
-        public static string TextOrderType {
+        internal static string TextOrderType {
             get {
                 return ResourceManager.GetString("TextOrderType", resourceCulture);
             }
@@ -126,7 +127,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Videos.
         /// </summary>
-        public static string TextVideo {
+        internal static string TextVideo {
             get {
                 return ResourceManager.GetString("TextVideo", resourceCulture);
             }
@@ -135,7 +136,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to My Videos.
         /// </summary>
-        public static string Title {
+        internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
@@ -144,7 +145,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Video Edit.
         /// </summary>
-        public static string TitleEdit {
+        internal static string TitleEdit {
             get {
                 return ResourceManager.GetString("TitleEdit", resourceCulture);
             }

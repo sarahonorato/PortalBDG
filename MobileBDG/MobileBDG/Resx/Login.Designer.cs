@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BDG.WEB.Resources {
+namespace MobileBDG.Resx {
     using System;
+    using System.Reflection;
     
     
     /// <summary>
@@ -22,7 +23,7 @@ namespace BDG.WEB.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Login {
+    internal class Login {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +37,10 @@ namespace BDG.WEB.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BDG.WEB.Resources.Login", typeof(Login).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MobileBDG.Resx.Login", typeof(Login).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +52,7 @@ namespace BDG.WEB.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +64,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field BirthDate is invalid..
         /// </summary>
-        public static string DataField_BirthDate_DataType_Date {
+        internal static string DataField_BirthDate_DataType_Date {
             get {
                 return ResourceManager.GetString("DataField_BirthDate_DataType_Date", resourceCulture);
             }
@@ -72,7 +73,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to BirthDate (dd/mm/yyyy).
         /// </summary>
-        public static string DataField_BirthDate_Label {
+        internal static string DataField_BirthDate_Label {
             get {
                 return ResourceManager.GetString("DataField_BirthDate_Label", resourceCulture);
             }
@@ -81,7 +82,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field BirthDate is required..
         /// </summary>
-        public static string DataField_BirthDate_Required {
+        internal static string DataField_BirthDate_Required {
             get {
                 return ResourceManager.GetString("DataField_BirthDate_Required", resourceCulture);
             }
@@ -90,7 +91,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to City.
         /// </summary>
-        public static string DataField_City_Label {
+        internal static string DataField_City_Label {
             get {
                 return ResourceManager.GetString("DataField_City_Label", resourceCulture);
             }
@@ -99,7 +100,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Select City.
         /// </summary>
-        public static string DataField_City_OptionDefault {
+        internal static string DataField_City_OptionDefault {
             get {
                 return ResourceManager.GetString("DataField_City_OptionDefault", resourceCulture);
             }
@@ -108,7 +109,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field City is required..
         /// </summary>
-        public static string DataField_City_Required {
+        internal static string DataField_City_Required {
             get {
                 return ResourceManager.GetString("DataField_City_Required", resourceCulture);
             }
@@ -117,7 +118,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Country.
         /// </summary>
-        public static string DataField_Country_Label {
+        internal static string DataField_Country_Label {
             get {
                 return ResourceManager.GetString("DataField_Country_Label", resourceCulture);
             }
@@ -126,7 +127,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Country does not exist..
         /// </summary>
-        public static string DataField_Country_NotExist {
+        internal static string DataField_Country_NotExist {
             get {
                 return ResourceManager.GetString("DataField_Country_NotExist", resourceCulture);
             }
@@ -135,7 +136,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Select Country.
         /// </summary>
-        public static string DataField_Country_OptionDefault {
+        internal static string DataField_Country_OptionDefault {
             get {
                 return ResourceManager.GetString("DataField_Country_OptionDefault", resourceCulture);
             }
@@ -144,7 +145,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field Country is required..
         /// </summary>
-        public static string DataField_Country_Required {
+        internal static string DataField_Country_Required {
             get {
                 return ResourceManager.GetString("DataField_Country_Required", resourceCulture);
             }
@@ -153,7 +154,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field Email is invalid..
         /// </summary>
-        public static string DataField_Email_DataType_EmailAddress {
+        internal static string DataField_Email_DataType_EmailAddress {
             get {
                 return ResourceManager.GetString("DataField_Email_DataType_EmailAddress", resourceCulture);
             }
@@ -162,7 +163,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to This e-mail is already in use..
         /// </summary>
-        public static string DataField_Email_Exist {
+        internal static string DataField_Email_Exist {
             get {
                 return ResourceManager.GetString("DataField_Email_Exist", resourceCulture);
             }
@@ -171,7 +172,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Email.
         /// </summary>
-        public static string DataField_Email_Label {
+        internal static string DataField_Email_Label {
             get {
                 return ResourceManager.GetString("DataField_Email_Label", resourceCulture);
             }
@@ -180,7 +181,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Email does not exist..
         /// </summary>
-        public static string DataField_Email_NotExist {
+        internal static string DataField_Email_NotExist {
             get {
                 return ResourceManager.GetString("DataField_Email_NotExist", resourceCulture);
             }
@@ -189,7 +190,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field Email is required..
         /// </summary>
-        public static string DataField_Email_Required {
+        internal static string DataField_Email_Required {
             get {
                 return ResourceManager.GetString("DataField_Email_Required", resourceCulture);
             }
@@ -198,7 +199,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Your email is invalid..
         /// </summary>
-        public static string DataField_EmailNotSend {
+        internal static string DataField_EmailNotSend {
             get {
                 return ResourceManager.GetString("DataField_EmailNotSend", resourceCulture);
             }
@@ -207,7 +208,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Gender.
         /// </summary>
-        public static string DataField_Gender_Label {
+        internal static string DataField_Gender_Label {
             get {
                 return ResourceManager.GetString("DataField_Gender_Label", resourceCulture);
             }
@@ -216,7 +217,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Select Gender.
         /// </summary>
-        public static string DataField_Gender_OptionDefault {
+        internal static string DataField_Gender_OptionDefault {
             get {
                 return ResourceManager.GetString("DataField_Gender_OptionDefault", resourceCulture);
             }
@@ -225,7 +226,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field Gender is required..
         /// </summary>
-        public static string DataField_Gender_Required {
+        internal static string DataField_Gender_Required {
             get {
                 return ResourceManager.GetString("DataField_Gender_Required", resourceCulture);
             }
@@ -234,7 +235,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Email or Password invalid, check and try again..
         /// </summary>
-        public static string DataField_InvalidLogin {
+        internal static string DataField_InvalidLogin {
             get {
                 return ResourceManager.GetString("DataField_InvalidLogin", resourceCulture);
             }
@@ -243,7 +244,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
-        public static string DataField_Name_Label {
+        internal static string DataField_Name_Label {
             get {
                 return ResourceManager.GetString("DataField_Name_Label", resourceCulture);
             }
@@ -252,7 +253,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field Name is required..
         /// </summary>
-        public static string DataField_Name_Required {
+        internal static string DataField_Name_Required {
             get {
                 return ResourceManager.GetString("DataField_Name_Required", resourceCulture);
             }
@@ -261,7 +262,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Password.
         /// </summary>
-        public static string DataField_Password_Label {
+        internal static string DataField_Password_Label {
             get {
                 return ResourceManager.GetString("DataField_Password_Label", resourceCulture);
             }
@@ -270,7 +271,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field Password is required..
         /// </summary>
-        public static string DataField_Password_Required {
+        internal static string DataField_Password_Required {
             get {
                 return ResourceManager.GetString("DataField_Password_Required", resourceCulture);
             }
@@ -279,7 +280,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field Password must be at least 6 characters and a maximum 10..
         /// </summary>
-        public static string DataField_Password_StringLength {
+        internal static string DataField_Password_StringLength {
             get {
                 return ResourceManager.GetString("DataField_Password_StringLength", resourceCulture);
             }
@@ -288,7 +289,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Password Confirmation.
         /// </summary>
-        public static string DataField_PasswordConfirmation_Label {
+        internal static string DataField_PasswordConfirmation_Label {
             get {
                 return ResourceManager.GetString("DataField_PasswordConfirmation_Label", resourceCulture);
             }
@@ -297,7 +298,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field Password Confirmation is required..
         /// </summary>
-        public static string DataField_PasswordConfirmation_Required {
+        internal static string DataField_PasswordConfirmation_Required {
             get {
                 return ResourceManager.GetString("DataField_PasswordConfirmation_Required", resourceCulture);
             }
@@ -306,7 +307,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to State.
         /// </summary>
-        public static string DataField_State_Label {
+        internal static string DataField_State_Label {
             get {
                 return ResourceManager.GetString("DataField_State_Label", resourceCulture);
             }
@@ -315,7 +316,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to State does not exist..
         /// </summary>
-        public static string DataField_State_NotExist {
+        internal static string DataField_State_NotExist {
             get {
                 return ResourceManager.GetString("DataField_State_NotExist", resourceCulture);
             }
@@ -324,7 +325,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Select State.
         /// </summary>
-        public static string DataField_State_OptionDefault {
+        internal static string DataField_State_OptionDefault {
             get {
                 return ResourceManager.GetString("DataField_State_OptionDefault", resourceCulture);
             }
@@ -333,7 +334,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field State is required..
         /// </summary>
-        public static string DataField_State_Required {
+        internal static string DataField_State_Required {
             get {
                 return ResourceManager.GetString("DataField_State_Required", resourceCulture);
             }
@@ -342,7 +343,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Agree the terms and policy.
         /// </summary>
-        public static string DataField_Terms_Label {
+        internal static string DataField_Terms_Label {
             get {
                 return ResourceManager.GetString("DataField_Terms_Label", resourceCulture);
             }
@@ -351,7 +352,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to The field Terms is required..
         /// </summary>
-        public static string DataField_Terms_Required {
+        internal static string DataField_Terms_Required {
             get {
                 return ResourceManager.GetString("DataField_Terms_Required", resourceCulture);
             }
@@ -360,7 +361,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Sign Up.
         /// </summary>
-        public static string LabelSignUp {
+        internal static string LabelSignUp {
             get {
                 return ResourceManager.GetString("LabelSignUp", resourceCulture);
             }
@@ -369,7 +370,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Sign up with Facebook.
         /// </summary>
-        public static string LabelSignUpFacebook {
+        internal static string LabelSignUpFacebook {
             get {
                 return ResourceManager.GetString("LabelSignUpFacebook", resourceCulture);
             }
@@ -378,7 +379,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Registration successfully..
         /// </summary>
-        public static string ReturnSignUpSuccess {
+        internal static string ReturnSignUpSuccess {
             get {
                 return ResourceManager.GetString("ReturnSignUpSuccess", resourceCulture);
             }
@@ -387,7 +388,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Already have an account?.
         /// </summary>
-        public static string TextAlreadyHaveAccount {
+        internal static string TextAlreadyHaveAccount {
             get {
                 return ResourceManager.GetString("TextAlreadyHaveAccount", resourceCulture);
             }
@@ -396,7 +397,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Associate your Facebook account.
         /// </summary>
-        public static string TextAssociateFacebook {
+        internal static string TextAssociateFacebook {
             get {
                 return ResourceManager.GetString("TextAssociateFacebook", resourceCulture);
             }
@@ -405,7 +406,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Close.
         /// </summary>
-        public static string TextCloseButton {
+        internal static string TextCloseButton {
             get {
                 return ResourceManager.GetString("TextCloseButton", resourceCulture);
             }
@@ -414,7 +415,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Confirm.
         /// </summary>
-        public static string TextConfirmButton {
+        internal static string TextConfirmButton {
             get {
                 return ResourceManager.GetString("TextConfirmButton", resourceCulture);
             }
@@ -423,7 +424,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Create an account.
         /// </summary>
-        public static string TextCreateAccount {
+        internal static string TextCreateAccount {
             get {
                 return ResourceManager.GetString("TextCreateAccount", resourceCulture);
             }
@@ -432,7 +433,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Don&apos;t have an account?.
         /// </summary>
-        public static string TextDontHaveAccount {
+        internal static string TextDontHaveAccount {
             get {
                 return ResourceManager.GetString("TextDontHaveAccount", resourceCulture);
             }
@@ -441,7 +442,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Forgot Password.
         /// </summary>
-        public static string TextForgotPasswordButton {
+        internal static string TextForgotPasswordButton {
             get {
                 return ResourceManager.GetString("TextForgotPasswordButton", resourceCulture);
             }
@@ -450,7 +451,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Log In.
         /// </summary>
-        public static string TextLoginButton {
+        internal static string TextLoginButton {
             get {
                 return ResourceManager.GetString("TextLoginButton", resourceCulture);
             }
@@ -459,7 +460,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Unsuccessful login with service..
         /// </summary>
-        public static string TextLoginUnsuccessfulService {
+        internal static string TextLoginUnsuccessfulService {
             get {
                 return ResourceManager.GetString("TextLoginUnsuccessfulService", resourceCulture);
             }
@@ -468,7 +469,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Password updated..
         /// </summary>
-        public static string TextNewPasswordChangedSuccess {
+        internal static string TextNewPasswordChangedSuccess {
             get {
                 return ResourceManager.GetString("TextNewPasswordChangedSuccess", resourceCulture);
             }
@@ -477,7 +478,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to New password was sent to &apos;{0}&apos;..
         /// </summary>
-        public static string TextNewPasswordSuccess {
+        internal static string TextNewPasswordSuccess {
             get {
                 return ResourceManager.GetString("TextNewPasswordSuccess", resourceCulture);
             }
@@ -486,7 +487,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Sign up to make part of a new music.
         /// </summary>
-        public static string Title {
+        internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }

@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BDG.WEB.Resources.Models {
+namespace MobileBDG.Resx.Models {
     using System;
+    using System.Reflection;
     
     
     /// <summary>
@@ -22,7 +23,7 @@ namespace BDG.WEB.Resources.Models {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class EditMusicValidation {
+    internal class EditMusicValidation {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +37,10 @@ namespace BDG.WEB.Resources.Models {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BDG.WEB.Resources.Models.EditMusicValidation", typeof(EditMusicValidation).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MobileBDG.Resx.Models.EditMusicValidation", typeof(EditMusicValidation).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +52,7 @@ namespace BDG.WEB.Resources.Models {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +64,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Album.
         /// </summary>
-        public static string DataField_Album_Label {
+        internal static string DataField_Album_Label {
             get {
                 return ResourceManager.GetString("DataField_Album_Label", resourceCulture);
             }
@@ -72,7 +73,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Select Album.
         /// </summary>
-        public static string DataField_Album_OptionDefault {
+        internal static string DataField_Album_OptionDefault {
             get {
                 return ResourceManager.GetString("DataField_Album_OptionDefault", resourceCulture);
             }
@@ -81,7 +82,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Album is required..
         /// </summary>
-        public static string DataField_Album_Required {
+        internal static string DataField_Album_Required {
             get {
                 return ResourceManager.GetString("DataField_Album_Required", resourceCulture);
             }
@@ -90,7 +91,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Artist.
         /// </summary>
-        public static string DataField_Artist_Label {
+        internal static string DataField_Artist_Label {
             get {
                 return ResourceManager.GetString("DataField_Artist_Label", resourceCulture);
             }
@@ -99,7 +100,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Select Artist.
         /// </summary>
-        public static string DataField_Artist_OptionDefault {
+        internal static string DataField_Artist_OptionDefault {
             get {
                 return ResourceManager.GetString("DataField_Artist_OptionDefault", resourceCulture);
             }
@@ -108,7 +109,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Artist is required..
         /// </summary>
-        public static string DataField_Artist_Required {
+        internal static string DataField_Artist_Required {
             get {
                 return ResourceManager.GetString("DataField_Artist_Required", resourceCulture);
             }
@@ -117,7 +118,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Author.
         /// </summary>
-        public static string DataField_Author_Label {
+        internal static string DataField_Author_Label {
             get {
                 return ResourceManager.GetString("DataField_Author_Label", resourceCulture);
             }
@@ -126,7 +127,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Author is required..
         /// </summary>
-        public static string DataField_Author_Required {
+        internal static string DataField_Author_Required {
             get {
                 return ResourceManager.GetString("DataField_Author_Required", resourceCulture);
             }
@@ -135,7 +136,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Author must be at least 3 characters and a maximum 250..
         /// </summary>
-        public static string DataField_Author_StringLength {
+        internal static string DataField_Author_StringLength {
             get {
                 return ResourceManager.GetString("DataField_Author_StringLength", resourceCulture);
             }
@@ -144,7 +145,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
-        public static string DataField_Name_Label {
+        internal static string DataField_Name_Label {
             get {
                 return ResourceManager.GetString("DataField_Name_Label", resourceCulture);
             }
@@ -153,7 +154,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Name is required..
         /// </summary>
-        public static string DataField_Name_Required {
+        internal static string DataField_Name_Required {
             get {
                 return ResourceManager.GetString("DataField_Name_Required", resourceCulture);
             }
@@ -162,7 +163,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Name must be at least 3 characters and a maximum 250..
         /// </summary>
-        public static string DataField_Name_StringLength {
+        internal static string DataField_Name_StringLength {
             get {
                 return ResourceManager.GetString("DataField_Name_StringLength", resourceCulture);
             }
@@ -171,7 +172,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to 128kbps (recommended).
         /// </summary>
-        public static string InfoFileMaxBitrate {
+        internal static string InfoFileMaxBitrate {
             get {
                 return ResourceManager.GetString("InfoFileMaxBitrate", resourceCulture);
             }
@@ -180,7 +181,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Max 10 files per upload..
         /// </summary>
-        public static string InfoFileMaxUpload {
+        internal static string InfoFileMaxUpload {
             get {
                 return ResourceManager.GetString("InfoFileMaxUpload", resourceCulture);
             }
@@ -189,7 +190,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Max 20 MB per file..
         /// </summary>
-        public static string InfoFileSize {
+        internal static string InfoFileSize {
             get {
                 return ResourceManager.GetString("InfoFileSize", resourceCulture);
             }
@@ -198,7 +199,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Upload just mp3 files..
         /// </summary>
-        public static string InfoFileType {
+        internal static string InfoFileType {
             get {
                 return ResourceManager.GetString("InfoFileType", resourceCulture);
             }
@@ -207,7 +208,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Song deleted successfully..
         /// </summary>
-        public static string ReturnSuccessDelete {
+        internal static string ReturnSuccessDelete {
             get {
                 return ResourceManager.GetString("ReturnSuccessDelete", resourceCulture);
             }
@@ -216,7 +217,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to New song added successfully..
         /// </summary>
-        public static string ReturnSuccessNew {
+        internal static string ReturnSuccessNew {
             get {
                 return ResourceManager.GetString("ReturnSuccessNew", resourceCulture);
             }
@@ -225,7 +226,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Song updated successfully..
         /// </summary>
-        public static string ReturnSuccessUpdate {
+        internal static string ReturnSuccessUpdate {
             get {
                 return ResourceManager.GetString("ReturnSuccessUpdate", resourceCulture);
             }

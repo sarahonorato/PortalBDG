@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BDG.WEB.Resources {
+namespace MobileBDG.Resx {
     using System;
+    using System.Reflection;
     
     
     /// <summary>
@@ -22,7 +23,7 @@ namespace BDG.WEB.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class ProfileEditArtist {
+    internal class ProfileEditArtist {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +37,10 @@ namespace BDG.WEB.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BDG.WEB.Resources.ProfileEditArtist", typeof(ProfileEditArtist).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MobileBDG.Resx.ProfileEditArtist", typeof(ProfileEditArtist).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +52,7 @@ namespace BDG.WEB.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +64,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to You must change this picture. This picture have ##WIDTH##x##HEIGHT##..
         /// </summary>
-        public static string TextAlertChangePicture {
+        internal static string TextAlertChangePicture {
             get {
                 return ResourceManager.GetString("TextAlertChangePicture", resourceCulture);
             }
@@ -72,7 +73,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Confirm delete this artist?.
         /// </summary>
-        public static string TextConfirmDelete {
+        internal static string TextConfirmDelete {
             get {
                 return ResourceManager.GetString("TextConfirmDelete", resourceCulture);
             }
@@ -81,7 +82,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Delete Artist.
         /// </summary>
-        public static string TextDeleteButton {
+        internal static string TextDeleteButton {
             get {
                 return ResourceManager.GetString("TextDeleteButton", resourceCulture);
             }
@@ -90,7 +91,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to New Artist / Band.
         /// </summary>
-        public static string TextNewButton {
+        internal static string TextNewButton {
             get {
                 return ResourceManager.GetString("TextNewButton", resourceCulture);
             }
@@ -99,7 +100,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
-        public static string TextOrderName {
+        internal static string TextOrderName {
             get {
                 return ResourceManager.GetString("TextOrderName", resourceCulture);
             }
@@ -108,7 +109,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Total Albuns.
         /// </summary>
-        public static string TextOrderTotalAlbum {
+        internal static string TextOrderTotalAlbum {
             get {
                 return ResourceManager.GetString("TextOrderTotalAlbum", resourceCulture);
             }
@@ -117,7 +118,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Total Listens.
         /// </summary>
-        public static string TextOrderTotalListens {
+        internal static string TextOrderTotalListens {
             get {
                 return ResourceManager.GetString("TextOrderTotalListens", resourceCulture);
             }
@@ -126,7 +127,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Total Songs.
         /// </summary>
-        public static string TextOrderTotalMusic {
+        internal static string TextOrderTotalMusic {
             get {
                 return ResourceManager.GetString("TextOrderTotalMusic", resourceCulture);
             }
@@ -135,7 +136,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Total Views.
         /// </summary>
-        public static string TextOrderTotalViews {
+        internal static string TextOrderTotalViews {
             get {
                 return ResourceManager.GetString("TextOrderTotalViews", resourceCulture);
             }
@@ -144,7 +145,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Add as Administrator.
         /// </summary>
-        public static string TextProfileAccessAddAsAdministrator {
+        internal static string TextProfileAccessAddAsAdministrator {
             get {
                 return ResourceManager.GetString("TextProfileAccessAddAsAdministrator", resourceCulture);
             }
@@ -153,7 +154,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Add as User.
         /// </summary>
-        public static string TextProfileAccessAddAsUser {
+        internal static string TextProfileAccessAddAsUser {
             get {
                 return ResourceManager.GetString("TextProfileAccessAddAsUser", resourceCulture);
             }
@@ -162,7 +163,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Administrator.
         /// </summary>
-        public static string TextProfileAccessAdministrator {
+        internal static string TextProfileAccessAdministrator {
             get {
                 return ResourceManager.GetString("TextProfileAccessAdministrator", resourceCulture);
             }
@@ -171,7 +172,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Permission.
         /// </summary>
-        public static string TextProfileAccessDatePermission {
+        internal static string TextProfileAccessDatePermission {
             get {
                 return ResourceManager.GetString("TextProfileAccessDatePermission", resourceCulture);
             }
@@ -180,7 +181,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Delete.
         /// </summary>
-        public static string TextProfileAccessDelete {
+        internal static string TextProfileAccessDelete {
             get {
                 return ResourceManager.GetString("TextProfileAccessDelete", resourceCulture);
             }
@@ -189,7 +190,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Email.
         /// </summary>
-        public static string TextProfileAccessEmail {
+        internal static string TextProfileAccessEmail {
             get {
                 return ResourceManager.GetString("TextProfileAccessEmail", resourceCulture);
             }
@@ -198,7 +199,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
-        public static string TextProfileAccessName {
+        internal static string TextProfileAccessName {
             get {
                 return ResourceManager.GetString("TextProfileAccessName", resourceCulture);
             }
@@ -207,7 +208,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Find profile to grant access.
         /// </summary>
-        public static string TextProfileAccessSearch {
+        internal static string TextProfileAccessSearch {
             get {
                 return ResourceManager.GetString("TextProfileAccessSearch", resourceCulture);
             }
@@ -216,7 +217,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to My Artists.
         /// </summary>
-        public static string Title {
+        internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
@@ -225,7 +226,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Artist Edit.
         /// </summary>
-        public static string TitleEdit {
+        internal static string TitleEdit {
             get {
                 return ResourceManager.GetString("TitleEdit", resourceCulture);
             }

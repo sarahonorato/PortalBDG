@@ -55,286 +55,410 @@
       <DependentUpon>NovaConta.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resx\Embed.Designer.cs" />
-    <Compile Include="Resx\Login.Designer.cs" />
-    <Compile Include="Resx\Login.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Login.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Login.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Menu.Designer.cs" />
-    <Compile Include="Resx\Menu.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Menu.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Menu.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\EditAlbumValidation.Designer.cs" />
-    <Compile Include="Resx\Models\EditAlbumValidation.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Models\EditAlbumValidation.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Embed.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditAlbumValidation.ES-ES.resx</DependentUpon>
+      <DependentUpon>Embed.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditAlbumValidation.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Models\EditAlbumValidation.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Login.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditAlbumValidation.FR-FR.resx</DependentUpon>
+      <DependentUpon>Login.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditAlbumValidation.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\EditAlbumValidation.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Login.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditAlbumValidation.PT-BR.resx</DependentUpon>
+      <DependentUpon>Login.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditAlbumValidation1.Designer.cs">
+    <Compile Include="Resx\Login.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Login.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Login.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Login.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Menu.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Menu.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Menu.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Menu.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Models\EditAlbumValidation.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EditAlbumValidation.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditArtistValidation.Designer.cs" />
-    <Compile Include="Resx\Models\EditArtistValidation.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Models\EditArtistValidation.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Models\EditAlbumValidation.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditArtistValidation.ES-ES.resx</DependentUpon>
+      <DependentUpon>EditAlbumValidation.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditArtistValidation.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Models\EditArtistValidation.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Models\EditAlbumValidation.FR-FR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditArtistValidation.FR-FR.resx</DependentUpon>
+      <DependentUpon>EditAlbumValidation.FR-FR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditArtistValidation.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\EditArtistValidation.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Models\EditAlbumValidation.PT-BR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditArtistValidation.PT-BR.resx</DependentUpon>
+      <DependentUpon>EditAlbumValidation.PT-BR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditArtistValidation1.Designer.cs">
+    <Compile Include="Resx\Models\EditArtistValidation.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EditArtistValidation.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditEventValidation.Designer.cs" />
-    <Compile Include="Resx\Models\EditEventValidation.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Models\EditEventValidation.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Models\EditArtistValidation.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditEventValidation.ES-ES.resx</DependentUpon>
+      <DependentUpon>EditArtistValidation.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditEventValidation.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Models\EditEventValidation.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Models\EditArtistValidation.FR-FR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditEventValidation.FR-FR.resx</DependentUpon>
+      <DependentUpon>EditArtistValidation.FR-FR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditEventValidation.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\EditEventValidation.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Models\EditArtistValidation.PT-BR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditEventValidation.PT-BR.resx</DependentUpon>
+      <DependentUpon>EditArtistValidation.PT-BR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditEventValidation1.Designer.cs">
+    <Compile Include="Resx\Models\EditEventValidation.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EditEventValidation.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditMusicValidation.Designer.cs" />
-    <Compile Include="Resx\Models\EditMusicValidation.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Models\EditMusicValidation.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Models\EditEventValidation.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditMusicValidation.ES-ES.resx</DependentUpon>
+      <DependentUpon>EditEventValidation.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditMusicValidation.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Models\EditMusicValidation.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Models\EditEventValidation.FR-FR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditMusicValidation.FR-FR.resx</DependentUpon>
+      <DependentUpon>EditEventValidation.FR-FR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditMusicValidation.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\EditMusicValidation.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Models\EditEventValidation.PT-BR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditMusicValidation.PT-BR.resx</DependentUpon>
+      <DependentUpon>EditEventValidation.PT-BR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditMusicValidation1.Designer.cs">
+    <Compile Include="Resx\Models\EditMusicValidation.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EditMusicValidation.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditPlaylistValidation.Designer.cs" />
-    <Compile Include="Resx\Models\EditPlaylistValidation.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Models\EditPlaylistValidation.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Models\EditMusicValidation.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditPlaylistValidation.ES-ES.resx</DependentUpon>
+      <DependentUpon>EditMusicValidation.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditPlaylistValidation.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Models\EditPlaylistValidation.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Models\EditMusicValidation.FR-FR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditPlaylistValidation.FR-FR.resx</DependentUpon>
+      <DependentUpon>EditMusicValidation.FR-FR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditPlaylistValidation.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\EditPlaylistValidation.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Models\EditMusicValidation.PT-BR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditPlaylistValidation.PT-BR.resx</DependentUpon>
+      <DependentUpon>EditMusicValidation.PT-BR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditPlaylistValidation1.Designer.cs">
+    <Compile Include="Resx\Models\EditPlaylistValidation.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EditPlaylistValidation.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditProfileSecutityValidation.Designer.cs" />
-    <Compile Include="Resx\Models\EditProfileSecutityValidation.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Models\EditProfileSecutityValidation.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Models\EditPlaylistValidation.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditProfileSecutityValidation.ES-ES.resx</DependentUpon>
+      <DependentUpon>EditPlaylistValidation.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditProfileSecutityValidation.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Models\EditProfileSecutityValidation.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Models\EditPlaylistValidation.FR-FR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditProfileSecutityValidation.FR-FR.resx</DependentUpon>
+      <DependentUpon>EditPlaylistValidation.FR-FR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditProfileSecutityValidation.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\EditProfileSecutityValidation.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Models\EditPlaylistValidation.PT-BR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditProfileSecutityValidation.PT-BR.resx</DependentUpon>
+      <DependentUpon>EditPlaylistValidation.PT-BR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditProfileSecutityValidation1.Designer.cs">
+    <Compile Include="Resx\Models\EditProfileSecutityValidation.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EditProfileSecutityValidation.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditSongValidation.Designer.cs" />
-    <Compile Include="Resx\Models\EditSongValidation.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Models\EditSongValidation.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Models\EditProfileSecutityValidation.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditSongValidation.ES-ES.resx</DependentUpon>
+      <DependentUpon>EditProfileSecutityValidation.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditSongValidation.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Models\EditSongValidation.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Models\EditProfileSecutityValidation.FR-FR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditSongValidation.FR-FR.resx</DependentUpon>
+      <DependentUpon>EditProfileSecutityValidation.FR-FR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditSongValidation.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\EditSongValidation.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Models\EditProfileSecutityValidation.PT-BR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditSongValidation.PT-BR.resx</DependentUpon>
+      <DependentUpon>EditProfileSecutityValidation.PT-BR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditSongValidation1.Designer.cs">
+    <Compile Include="Resx\Models\EditSongValidation.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EditSongValidation.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditVideoValidation.Designer.cs" />
-    <Compile Include="Resx\Models\EditVideoValidation.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Models\EditVideoValidation.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Models\EditSongValidation.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditVideoValidation.ES-ES.resx</DependentUpon>
+      <DependentUpon>EditSongValidation.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditVideoValidation.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Models\EditVideoValidation.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Models\EditSongValidation.FR-FR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditVideoValidation.FR-FR.resx</DependentUpon>
+      <DependentUpon>EditSongValidation.FR-FR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditVideoValidation.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\EditVideoValidation.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Models\EditSongValidation.PT-BR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>EditVideoValidation.PT-BR.resx</DependentUpon>
+      <DependentUpon>EditSongValidation.PT-BR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\EditVideoValidation1.Designer.cs">
+    <Compile Include="Resx\Models\EditVideoValidation.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EditVideoValidation.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\SignUpFormValidation.Designer.cs" />
-    <Compile Include="Resx\Models\SignUpFormValidation.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Models\SignUpFormValidation.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Models\EditVideoValidation.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SignUpFormValidation.ES-ES.resx</DependentUpon>
+      <DependentUpon>EditVideoValidation.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\SignUpFormValidation.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Models\SignUpFormValidation.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Models\EditVideoValidation.FR-FR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SignUpFormValidation.FR-FR.resx</DependentUpon>
+      <DependentUpon>EditVideoValidation.FR-FR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\SignUpFormValidation.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Models\SignUpFormValidation.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Models\EditVideoValidation.PT-BR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SignUpFormValidation.PT-BR.resx</DependentUpon>
+      <DependentUpon>EditVideoValidation.PT-BR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Models\SignUpFormValidation1.Designer.cs">
+    <Compile Include="Resx\Models\SignUpFormValidation.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SignUpFormValidation.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\ProfileEdit.Designer.cs" />
-    <Compile Include="Resx\ProfileEdit.ES-ES.Designer.cs" />
-    <Compile Include="Resx\ProfileEdit.FR-FR.Designer.cs" />
-    <Compile Include="Resx\ProfileEdit.PT-BR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditAlbum.Designer.cs" />
-    <Compile Include="Resx\ProfileEditAlbum.ES-ES.Designer.cs" />
-    <Compile Include="Resx\ProfileEditAlbum.FR-FR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditAlbum.PT-BR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditArtist.Designer.cs" />
-    <Compile Include="Resx\ProfileEditArtist.ES-ES.Designer.cs" />
-    <Compile Include="Resx\ProfileEditArtist.FR-FR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditArtist.PT-BR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditEvent.Designer.cs" />
-    <Compile Include="Resx\ProfileEditEvent.ES-ES.Designer.cs" />
-    <Compile Include="Resx\ProfileEditEvent.FR-FR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditEvent.PT-BR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditSong.Designer.cs" />
-    <Compile Include="Resx\ProfileEditSong.ES-ES.Designer.cs" />
-    <Compile Include="Resx\ProfileEditSong.FR-FR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditSong.PT-BR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditUser.Designer.cs" />
-    <Compile Include="Resx\ProfileEditUser.ES-ES.Designer.cs" />
-    <Compile Include="Resx\ProfileEditUser.FR-FR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditUser.PT-BR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditVideo.Designer.cs" />
-    <Compile Include="Resx\ProfileEditVideo.ES-ES.Designer.cs" />
-    <Compile Include="Resx\ProfileEditVideo.FR-FR.Designer.cs" />
-    <Compile Include="Resx\ProfileEditVideo.PT-BR.Designer.cs" />
-    <Compile Include="Resx\SearchResults.Designer.cs" />
-    <Compile Include="Resx\SearchResults.ES-ES.Designer.cs" />
-    <Compile Include="Resx\SearchResults.FR-FR.Designer.cs" />
-    <Compile Include="Resx\SearchResults.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Shared\Strings.Designer.cs" />
-    <Compile Include="Resx\Shared\Strings.ES-ES.Designer.cs" />
-    <Compile Include="Resx\Shared\Strings.ES-ES1.Designer.cs">
+    <Compile Include="Resx\Models\SignUpFormValidation.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SignUpFormValidation.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Models\SignUpFormValidation.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SignUpFormValidation.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Models\SignUpFormValidation.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SignUpFormValidation.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEdit.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEdit.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEdit.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEdit.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEdit.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEdit.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEdit.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEdit.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditAlbum.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditAlbum.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditAlbum.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditAlbum.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditAlbum.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditAlbum.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditAlbum.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditAlbum.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditArtist.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditArtist.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditArtist.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditArtist.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditArtist.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditArtist.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditArtist.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditArtist.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditEvent.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditEvent.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditEvent.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditEvent.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditEvent.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditEvent.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditEvent.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditEvent.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditSong.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditSong.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditSong.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditSong.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditSong.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditSong.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditSong.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditSong.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditUser.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditUser.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditUser.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditUser.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditUser.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditUser.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditUser.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditVideo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditVideo.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditVideo.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditVideo.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditVideo.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditVideo.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\ProfileEditVideo.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfileEditVideo.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\SearchResults.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchResults.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\SearchResults.ES-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchResults.ES-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\SearchResults.FR-FR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchResults.FR-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\SearchResults.PT-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SearchResults.PT-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Shared\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resx\Shared\Strings.ES-ES.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.ES-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Shared\Strings.FR-FR.Designer.cs" />
-    <Compile Include="Resx\Shared\Strings.FR-FR1.Designer.cs">
+    <Compile Include="Resx\Shared\Strings.FR-FR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.FR-FR.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resx\Shared\Strings.PT-BR.Designer.cs" />
-    <Compile Include="Resx\Shared\Strings.PT-BR1.Designer.cs">
+    <Compile Include="Resx\Shared\Strings.PT-BR.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Strings.PT-BR.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Resx\Shared\Strings1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
     <Compile Include="TranslateExtension.cs" />
     <Compile Include="Util\ExtensionMethods.cs" />
@@ -350,327 +474,327 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Embed.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Embed1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Embed.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Login.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Login.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Login.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Login.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Login.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Login.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Login.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Login.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Login.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Login.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Login1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Login.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Menu.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Menu.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Menu.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Menu.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Menu.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Menu.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Menu.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Menu.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Menu.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Menu.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Menu1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Menu.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditAlbumValidation.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditAlbumValidation.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditAlbumValidation.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditAlbumValidation.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditAlbumValidation.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditAlbumValidation.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditAlbumValidation.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditAlbumValidation.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditAlbumValidation.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditAlbumValidation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditAlbumValidation1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditAlbumValidation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditArtistValidation.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditArtistValidation.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditArtistValidation.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditArtistValidation.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditArtistValidation.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditArtistValidation.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditArtistValidation.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditArtistValidation.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditArtistValidation.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditArtistValidation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditArtistValidation1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditArtistValidation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditEventValidation.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditEventValidation.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditEventValidation.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditEventValidation.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditEventValidation.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditEventValidation.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditEventValidation.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditEventValidation.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditEventValidation.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditEventValidation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditEventValidation1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditEventValidation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditMusicValidation.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditMusicValidation.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditMusicValidation.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditMusicValidation.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditMusicValidation.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditMusicValidation.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditMusicValidation.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditMusicValidation.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditMusicValidation.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditMusicValidation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditMusicValidation1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditMusicValidation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditPlaylistValidation.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditPlaylistValidation.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditPlaylistValidation.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditPlaylistValidation.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditPlaylistValidation.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditPlaylistValidation.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditPlaylistValidation.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditPlaylistValidation.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditPlaylistValidation.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditPlaylistValidation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditPlaylistValidation1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditPlaylistValidation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditProfileSecutityValidation.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditProfileSecutityValidation.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditProfileSecutityValidation.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditProfileSecutityValidation.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditProfileSecutityValidation.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditProfileSecutityValidation.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditProfileSecutityValidation.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditProfileSecutityValidation.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditProfileSecutityValidation.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditProfileSecutityValidation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditProfileSecutityValidation1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditProfileSecutityValidation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditSongValidation.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditSongValidation.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditSongValidation.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditSongValidation.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditSongValidation.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditSongValidation.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditSongValidation.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditSongValidation.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditSongValidation.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditSongValidation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditSongValidation1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditSongValidation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditVideoValidation.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditVideoValidation.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditVideoValidation.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditVideoValidation.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditVideoValidation.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditVideoValidation.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditVideoValidation.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditVideoValidation.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditVideoValidation.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\EditVideoValidation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EditVideoValidation1.Designer.cs</LastGenOutput>
+      <LastGenOutput>EditVideoValidation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\SignUpFormValidation.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>SignUpFormValidation.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>SignUpFormValidation.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\SignUpFormValidation.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>SignUpFormValidation.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>SignUpFormValidation.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\SignUpFormValidation.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>SignUpFormValidation.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>SignUpFormValidation.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Models\SignUpFormValidation.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>SignUpFormValidation1.Designer.cs</LastGenOutput>
+      <LastGenOutput>SignUpFormValidation.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEdit.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEdit.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEdit.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEdit.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEdit.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEdit.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEdit.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEdit.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEdit.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEdit.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEdit1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEdit.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditAlbum.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditAlbum.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditAlbum.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditAlbum.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditAlbum.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditAlbum.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditAlbum.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditAlbum.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditAlbum.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditAlbum.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditAlbum1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditAlbum.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditArtist.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditArtist.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditArtist.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditArtist.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditArtist.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditArtist.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditArtist.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditArtist.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditArtist.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditArtist.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditArtist1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditArtist.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditEvent.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditEvent.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditEvent.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditEvent.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditEvent.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditEvent.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditEvent.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditEvent.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditEvent.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditEvent.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditEvent1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditEvent.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditSong.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditSong.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditSong.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditSong.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditSong.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditSong.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditSong.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditSong.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditSong.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditSong.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditSong1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditSong.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditUser.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditUser.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditUser.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditUser.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditUser.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditUser.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditUser.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditUser.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditUser.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditUser.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditUser1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditUser.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditVideo.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditVideo.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditVideo.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditVideo.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditVideo.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditVideo.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditVideo.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditVideo.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditVideo.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\ProfileEditVideo.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ProfileEditVideo1.Designer.cs</LastGenOutput>
+      <LastGenOutput>ProfileEditVideo.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\SearchResults.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>SearchResults.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>SearchResults.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\SearchResults.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>SearchResults.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>SearchResults.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\SearchResults.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>SearchResults.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>SearchResults.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\SearchResults.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>SearchResults1.Designer.cs</LastGenOutput>
+      <LastGenOutput>SearchResults.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Shared\Strings.ES-ES.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings.ES-ES1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Strings.ES-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Shared\Strings.FR-FR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings.FR-FR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Strings.FR-FR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Shared\Strings.PT-BR.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings.PT-BR1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Strings.PT-BR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resx\Shared\Strings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -699,6 +823,7 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

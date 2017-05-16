@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BDG.WEB.Resources {
+namespace MobileBDG.Resx {
     using System;
+    using System.Reflection;
     
     
     /// <summary>
@@ -22,7 +23,7 @@ namespace BDG.WEB.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class ProfileEditEvent {
+    internal class ProfileEditEvent {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +37,10 @@ namespace BDG.WEB.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BDG.WEB.Resources.ProfileEditEvent", typeof(ProfileEditEvent).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MobileBDG.Resx.ProfileEditEvent", typeof(ProfileEditEvent).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +52,7 @@ namespace BDG.WEB.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +64,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Confirm delete this event?.
         /// </summary>
-        public static string TextConfirmDelete {
+        internal static string TextConfirmDelete {
             get {
                 return ResourceManager.GetString("TextConfirmDelete", resourceCulture);
             }
@@ -72,7 +73,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Delete Event.
         /// </summary>
-        public static string TextDeleteButton {
+        internal static string TextDeleteButton {
             get {
                 return ResourceManager.GetString("TextDeleteButton", resourceCulture);
             }
@@ -81,7 +82,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to New Event.
         /// </summary>
-        public static string TextNewButton {
+        internal static string TextNewButton {
             get {
                 return ResourceManager.GetString("TextNewButton", resourceCulture);
             }
@@ -90,7 +91,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Artist.
         /// </summary>
-        public static string TextOrderArtist {
+        internal static string TextOrderArtist {
             get {
                 return ResourceManager.GetString("TextOrderArtist", resourceCulture);
             }
@@ -99,7 +100,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to City.
         /// </summary>
-        public static string TextOrderCity {
+        internal static string TextOrderCity {
             get {
                 return ResourceManager.GetString("TextOrderCity", resourceCulture);
             }
@@ -108,7 +109,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Date.
         /// </summary>
-        public static string TextOrderDate {
+        internal static string TextOrderDate {
             get {
                 return ResourceManager.GetString("TextOrderDate", resourceCulture);
             }
@@ -117,7 +118,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Local.
         /// </summary>
-        public static string TextOrderLocal {
+        internal static string TextOrderLocal {
             get {
                 return ResourceManager.GetString("TextOrderLocal", resourceCulture);
             }
@@ -126,7 +127,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Title.
         /// </summary>
-        public static string TextOrderTitle {
+        internal static string TextOrderTitle {
             get {
                 return ResourceManager.GetString("TextOrderTitle", resourceCulture);
             }
@@ -135,7 +136,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Total Listens.
         /// </summary>
-        public static string TextOrderTotalListens {
+        internal static string TextOrderTotalListens {
             get {
                 return ResourceManager.GetString("TextOrderTotalListens", resourceCulture);
             }
@@ -144,7 +145,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to My Events.
         /// </summary>
-        public static string Title {
+        internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
@@ -153,7 +154,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Event Edit.
         /// </summary>
-        public static string TitleEdit {
+        internal static string TitleEdit {
             get {
                 return ResourceManager.GetString("TitleEdit", resourceCulture);
             }

@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BDG.WEB.Resources.Models {
+namespace MobileBDG.Resx.Models {
     using System;
+    using System.Reflection;
     
     
     /// <summary>
@@ -22,7 +23,7 @@ namespace BDG.WEB.Resources.Models {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class EditPlaylistValidation {
+    internal class EditPlaylistValidation {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +37,10 @@ namespace BDG.WEB.Resources.Models {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BDG.WEB.Resources.Models.EditPlaylistValidation", typeof(EditPlaylistValidation).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MobileBDG.Resx.Models.EditPlaylistValidation", typeof(EditPlaylistValidation).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +52,7 @@ namespace BDG.WEB.Resources.Models {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +64,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to playlist name.
         /// </summary>
-        public static string DataField_Title_Label {
+        internal static string DataField_Title_Label {
             get {
                 return ResourceManager.GetString("DataField_Title_Label", resourceCulture);
             }
@@ -72,7 +73,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Name is required..
         /// </summary>
-        public static string DataField_Title_Required {
+        internal static string DataField_Title_Required {
             get {
                 return ResourceManager.GetString("DataField_Title_Required", resourceCulture);
             }
@@ -81,7 +82,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Name must be at least 2 characters and a maximum 40..
         /// </summary>
-        public static string DataField_Title_StringLength {
+        internal static string DataField_Title_StringLength {
             get {
                 return ResourceManager.GetString("DataField_Title_StringLength", resourceCulture);
             }
@@ -90,7 +91,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Playlist deleted successfully..
         /// </summary>
-        public static string ReturnSuccessDelete {
+        internal static string ReturnSuccessDelete {
             get {
                 return ResourceManager.GetString("ReturnSuccessDelete", resourceCulture);
             }
@@ -99,7 +100,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to New playlist added successfully..
         /// </summary>
-        public static string ReturnSuccessNew {
+        internal static string ReturnSuccessNew {
             get {
                 return ResourceManager.GetString("ReturnSuccessNew", resourceCulture);
             }
@@ -108,7 +109,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Playlist updated successfully..
         /// </summary>
-        public static string ReturnSuccessUpdate {
+        internal static string ReturnSuccessUpdate {
             get {
                 return ResourceManager.GetString("ReturnSuccessUpdate", resourceCulture);
             }
@@ -117,7 +118,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to New Playlist.
         /// </summary>
-        public static string TextNewButton {
+        internal static string TextNewButton {
             get {
                 return ResourceManager.GetString("TextNewButton", resourceCulture);
             }

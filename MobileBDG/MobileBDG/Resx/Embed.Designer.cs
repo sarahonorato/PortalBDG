@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BDG.WEB.Resources {
+namespace MobileBDG.Resx {
     using System;
+    using System.Reflection;
     
     
     /// <summary>
@@ -22,7 +23,7 @@ namespace BDG.WEB.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Embed {
+    internal class Embed {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +37,10 @@ namespace BDG.WEB.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BDG.WEB.Resources.Embed", typeof(Embed).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MobileBDG.Resx.Embed", typeof(Embed).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +52,7 @@ namespace BDG.WEB.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +64,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Album.
         /// </summary>
-        public static string TextAlbum {
+        internal static string TextAlbum {
             get {
                 return ResourceManager.GetString("TextAlbum", resourceCulture);
             }
@@ -72,7 +73,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Artist.
         /// </summary>
-        public static string TextArtist {
+        internal static string TextArtist {
             get {
                 return ResourceManager.GetString("TextArtist", resourceCulture);
             }
@@ -81,7 +82,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Auto Play.
         /// </summary>
-        public static string TextAutoPlay {
+        internal static string TextAutoPlay {
             get {
                 return ResourceManager.GetString("TextAutoPlay", resourceCulture);
             }
@@ -90,7 +91,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Embed.
         /// </summary>
-        public static string TextEmbed {
+        internal static string TextEmbed {
             get {
                 return ResourceManager.GetString("TextEmbed", resourceCulture);
             }
@@ -99,7 +100,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Configure and copy your embed code..
         /// </summary>
-        public static string TextExplain {
+        internal static string TextExplain {
             get {
                 return ResourceManager.GetString("TextExplain", resourceCulture);
             }
@@ -108,7 +109,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Embed Code.
         /// </summary>
-        public static string TextGeneratedCode {
+        internal static string TextGeneratedCode {
             get {
                 return ResourceManager.GetString("TextGeneratedCode", resourceCulture);
             }
@@ -117,7 +118,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Height.
         /// </summary>
-        public static string TextHeight {
+        internal static string TextHeight {
             get {
                 return ResourceManager.GetString("TextHeight", resourceCulture);
             }
@@ -126,7 +127,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Music.
         /// </summary>
-        public static string TextMusic {
+        internal static string TextMusic {
             get {
                 return ResourceManager.GetString("TextMusic", resourceCulture);
             }
@@ -135,7 +136,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Playlist.
         /// </summary>
-        public static string TextPlaylist {
+        internal static string TextPlaylist {
             get {
                 return ResourceManager.GetString("TextPlaylist", resourceCulture);
             }
@@ -144,7 +145,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Preview.
         /// </summary>
-        public static string TextPreview {
+        internal static string TextPreview {
             get {
                 return ResourceManager.GetString("TextPreview", resourceCulture);
             }
@@ -153,7 +154,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Theme.
         /// </summary>
-        public static string TextTheme {
+        internal static string TextTheme {
             get {
                 return ResourceManager.GetString("TextTheme", resourceCulture);
             }
@@ -162,7 +163,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to BDG.
         /// </summary>
-        public static string TextThemeBDG {
+        internal static string TextThemeBDG {
             get {
                 return ResourceManager.GetString("TextThemeBDG", resourceCulture);
             }
@@ -171,7 +172,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Dark.
         /// </summary>
-        public static string TextThemeDark {
+        internal static string TextThemeDark {
             get {
                 return ResourceManager.GetString("TextThemeDark", resourceCulture);
             }
@@ -180,7 +181,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Light.
         /// </summary>
-        public static string TextThemeLight {
+        internal static string TextThemeLight {
             get {
                 return ResourceManager.GetString("TextThemeLight", resourceCulture);
             }
@@ -189,7 +190,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to song.
         /// </summary>
-        public static string TextTotalSong {
+        internal static string TextTotalSong {
             get {
                 return ResourceManager.GetString("TextTotalSong", resourceCulture);
             }
@@ -198,7 +199,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to song(s).
         /// </summary>
-        public static string TextTotalSongs {
+        internal static string TextTotalSongs {
             get {
                 return ResourceManager.GetString("TextTotalSongs", resourceCulture);
             }
@@ -207,7 +208,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to View.
         /// </summary>
-        public static string TextView {
+        internal static string TextView {
             get {
                 return ResourceManager.GetString("TextView", resourceCulture);
             }
@@ -216,7 +217,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Coverart.
         /// </summary>
-        public static string TextViewCoverart {
+        internal static string TextViewCoverart {
             get {
                 return ResourceManager.GetString("TextViewCoverart", resourceCulture);
             }
@@ -225,7 +226,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to List.
         /// </summary>
-        public static string TextViewList {
+        internal static string TextViewList {
             get {
                 return ResourceManager.GetString("TextViewList", resourceCulture);
             }
@@ -234,7 +235,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Player.
         /// </summary>
-        public static string TextViewPlayer {
+        internal static string TextViewPlayer {
             get {
                 return ResourceManager.GetString("TextViewPlayer", resourceCulture);
             }
@@ -243,7 +244,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Width.
         /// </summary>
-        public static string TextWidth {
+        internal static string TextWidth {
             get {
                 return ResourceManager.GetString("TextWidth", resourceCulture);
             }

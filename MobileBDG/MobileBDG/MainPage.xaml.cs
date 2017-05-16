@@ -12,6 +12,12 @@ namespace MobileBDG
         public MainPage()
         {
             InitializeComponent();
+            Traducao();
+        }
+
+        private void Traducao()
+        {
+            lblTitulo.Text = Resx.Login.Title;
         }
 
         private async void btnEntrar_Clicked(object sender, EventArgs e)

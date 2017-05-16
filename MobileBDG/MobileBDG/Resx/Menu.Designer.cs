@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BDG.WEB.Resources {
+namespace MobileBDG.Resx {
     using System;
+    using System.Reflection;
     
     
     /// <summary>
@@ -22,7 +23,7 @@ namespace BDG.WEB.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Menu {
+    internal class Menu {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +37,10 @@ namespace BDG.WEB.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BDG.WEB.Resources.Menu", typeof(Menu).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MobileBDG.Resx.Menu", typeof(Menu).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +52,7 @@ namespace BDG.WEB.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +64,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Contact Us.
         /// </summary>
-        public static string ContactUs {
+        internal static string ContactUs {
             get {
                 return ResourceManager.GetString("ContactUs", resourceCulture);
             }
@@ -72,7 +73,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Events.
         /// </summary>
-        public static string Events {
+        internal static string Events {
             get {
                 return ResourceManager.GetString("Events", resourceCulture);
             }
@@ -81,7 +82,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Genres.
         /// </summary>
-        public static string Genres {
+        internal static string Genres {
             get {
                 return ResourceManager.GetString("Genres", resourceCulture);
             }
@@ -90,7 +91,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
-        public static string Home {
+        internal static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
             }
@@ -99,7 +100,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Listen.
         /// </summary>
-        public static string Listen {
+        internal static string Listen {
             get {
                 return ResourceManager.GetString("Listen", resourceCulture);
             }
@@ -108,7 +109,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Logout.
         /// </summary>
-        public static string Logout {
+        internal static string Logout {
             get {
                 return ResourceManager.GetString("Logout", resourceCulture);
             }
@@ -117,7 +118,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to My BDG.
         /// </summary>
-        public static string MyBDG {
+        internal static string MyBDG {
             get {
                 return ResourceManager.GetString("MyBDG", resourceCulture);
             }
@@ -126,7 +127,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to My Artists / Bands.
         /// </summary>
-        public static string MyBDGAddEditArtist {
+        internal static string MyBDGAddEditArtist {
             get {
                 return ResourceManager.GetString("MyBDGAddEditArtist", resourceCulture);
             }
@@ -135,7 +136,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Edit Profile.
         /// </summary>
-        public static string MyBDGEditProfile {
+        internal static string MyBDGEditProfile {
             get {
                 return ResourceManager.GetString("MyBDGEditProfile", resourceCulture);
             }
@@ -144,7 +145,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Listen.
         /// </summary>
-        public static string MyBDGListen {
+        internal static string MyBDGListen {
             get {
                 return ResourceManager.GetString("MyBDGListen", resourceCulture);
             }
@@ -153,7 +154,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Login / Subscribe.
         /// </summary>
-        public static string MyBDGLoginSubscribe {
+        internal static string MyBDGLoginSubscribe {
             get {
                 return ResourceManager.GetString("MyBDGLoginSubscribe", resourceCulture);
             }
@@ -162,7 +163,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Playlists.
         /// </summary>
-        public static string MyBDGPlaylists {
+        internal static string MyBDGPlaylists {
             get {
                 return ResourceManager.GetString("MyBDGPlaylists", resourceCulture);
             }
@@ -171,7 +172,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Blog.
         /// </summary>
-        public static string News {
+        internal static string News {
             get {
                 return ResourceManager.GetString("News", resourceCulture);
             }
@@ -180,7 +181,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Page Not Found.
         /// </summary>
-        public static string PageNotFound {
+        internal static string PageNotFound {
             get {
                 return ResourceManager.GetString("PageNotFound", resourceCulture);
             }
@@ -189,7 +190,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Oops.
         /// </summary>
-        public static string PageOops {
+        internal static string PageOops {
             get {
                 return ResourceManager.GetString("PageOops", resourceCulture);
             }
@@ -198,7 +199,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Playlists.
         /// </summary>
-        public static string Playlist {
+        internal static string Playlist {
             get {
                 return ResourceManager.GetString("Playlist", resourceCulture);
             }
@@ -207,7 +208,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Profile.
         /// </summary>
-        public static string Profile {
+        internal static string Profile {
             get {
                 return ResourceManager.GetString("Profile", resourceCulture);
             }
@@ -216,7 +217,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Discover the New.
         /// </summary>
-        public static string Title {
+        internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
@@ -225,7 +226,7 @@ namespace BDG.WEB.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Videos.
         /// </summary>
-        public static string Videos {
+        internal static string Videos {
             get {
                 return ResourceManager.GetString("Videos", resourceCulture);
             }

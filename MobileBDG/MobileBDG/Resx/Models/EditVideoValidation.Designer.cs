@@ -8,8 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BDG.WEB.Resources.Models {
+namespace MobileBDG.Resx.Models {
     using System;
+    using System.Reflection;
     
     
     /// <summary>
@@ -22,7 +23,7 @@ namespace BDG.WEB.Resources.Models {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class EditVideoValidation {
+    internal class EditVideoValidation {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +37,10 @@ namespace BDG.WEB.Resources.Models {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BDG.WEB.Resources.Models.EditVideoValidation", typeof(EditVideoValidation).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MobileBDG.Resx.Models.EditVideoValidation", typeof(EditVideoValidation).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +52,7 @@ namespace BDG.WEB.Resources.Models {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +64,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Artist.
         /// </summary>
-        public static string DataField_Artist_Label {
+        internal static string DataField_Artist_Label {
             get {
                 return ResourceManager.GetString("DataField_Artist_Label", resourceCulture);
             }
@@ -72,7 +73,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Select Artist.
         /// </summary>
-        public static string DataField_Artist_OptionDefault {
+        internal static string DataField_Artist_OptionDefault {
             get {
                 return ResourceManager.GetString("DataField_Artist_OptionDefault", resourceCulture);
             }
@@ -81,7 +82,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Artist is required..
         /// </summary>
-        public static string DataField_Artist_Required {
+        internal static string DataField_Artist_Required {
             get {
                 return ResourceManager.GetString("DataField_Artist_Required", resourceCulture);
             }
@@ -90,7 +91,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The Video URL is not valid..
         /// </summary>
-        public static string DataField_Link_Invalid {
+        internal static string DataField_Link_Invalid {
             get {
                 return ResourceManager.GetString("DataField_Link_Invalid", resourceCulture);
             }
@@ -99,7 +100,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Video URL.
         /// </summary>
-        public static string DataField_Link_Label {
+        internal static string DataField_Link_Label {
             get {
                 return ResourceManager.GetString("DataField_Link_Label", resourceCulture);
             }
@@ -108,7 +109,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Video URL is required..
         /// </summary>
-        public static string DataField_Link_Required {
+        internal static string DataField_Link_Required {
             get {
                 return ResourceManager.GetString("DataField_Link_Required", resourceCulture);
             }
@@ -117,7 +118,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Video Youtube URL is required..
         /// </summary>
-        public static string DataField_Link_Youtube_Required {
+        internal static string DataField_Link_Youtube_Required {
             get {
                 return ResourceManager.GetString("DataField_Link_Youtube_Required", resourceCulture);
             }
@@ -126,7 +127,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Title.
         /// </summary>
-        public static string DataField_Title_Label {
+        internal static string DataField_Title_Label {
             get {
                 return ResourceManager.GetString("DataField_Title_Label", resourceCulture);
             }
@@ -135,7 +136,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Title is required..
         /// </summary>
-        public static string DataField_Title_Required {
+        internal static string DataField_Title_Required {
             get {
                 return ResourceManager.GetString("DataField_Title_Required", resourceCulture);
             }
@@ -144,7 +145,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Title must be at least 3 characters and a maximum 250..
         /// </summary>
-        public static string DataField_Title_StringLength {
+        internal static string DataField_Title_StringLength {
             get {
                 return ResourceManager.GetString("DataField_Title_StringLength", resourceCulture);
             }
@@ -153,7 +154,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Source.
         /// </summary>
-        public static string DataField_Type_Label {
+        internal static string DataField_Type_Label {
             get {
                 return ResourceManager.GetString("DataField_Type_Label", resourceCulture);
             }
@@ -162,7 +163,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Select Source.
         /// </summary>
-        public static string DataField_Type_OptionDefault {
+        internal static string DataField_Type_OptionDefault {
             get {
                 return ResourceManager.GetString("DataField_Type_OptionDefault", resourceCulture);
             }
@@ -171,7 +172,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to The field Source is required..
         /// </summary>
-        public static string DataField_Type_Required {
+        internal static string DataField_Type_Required {
             get {
                 return ResourceManager.GetString("DataField_Type_Required", resourceCulture);
             }
@@ -180,7 +181,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Video deleted successfully..
         /// </summary>
-        public static string ReturnSuccessDelete {
+        internal static string ReturnSuccessDelete {
             get {
                 return ResourceManager.GetString("ReturnSuccessDelete", resourceCulture);
             }
@@ -189,7 +190,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to New video added successfully..
         /// </summary>
-        public static string ReturnSuccessNew {
+        internal static string ReturnSuccessNew {
             get {
                 return ResourceManager.GetString("ReturnSuccessNew", resourceCulture);
             }
@@ -198,7 +199,7 @@ namespace BDG.WEB.Resources.Models {
         /// <summary>
         ///   Looks up a localized string similar to Video updated successfully..
         /// </summary>
-        public static string ReturnSuccessUpdate {
+        internal static string ReturnSuccessUpdate {
             get {
                 return ResourceManager.GetString("ReturnSuccessUpdate", resourceCulture);
             }
