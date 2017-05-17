@@ -2,15 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileBDG.Home">
-    <ScrollView>
-        <StackLayout Style="{DynamicResource PainelPrincipal}">
-            <StackLayout Style="{DynamicResource PainelTitulo}">
-                <Label Text="Home" Style="{DynamicResource LabelTitulo}" x:Name="lblTitulo"  />
-            </StackLayout>
-            <StackLayout>
-
-            </StackLayout>
-        </StackLayout>
-    </ScrollView>
-
+    <StackLayout Style="{DynamicResource PainelPrincipal}" Orientation="Vertical" HorizontalOptions="FillAndExpand">
+        <SearchBar x:Name="BarraBusca" BackgroundColor="LightGray" TextChanged="BarraBusca_TextChanged" ></SearchBar>
+        <ListView IsPullToRefreshEnabled="True" Refreshing="ListaHome_Refreshing" ItemTapped="ListaHome_ItemTapped" x:Name="ListaHome">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell ImageSource="{Binding PhotoUrl}" Text="{Binding Name}" Detail="{Binding Function}">
+                        <ImageCell.ContextActions>
+                            <MenuItem Text="Teste" ></MenuItem>
+                        </ImageCell.ContextActions>
+                    </ImageCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>
