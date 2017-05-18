@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace MobileBDG
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -15,10 +16,12 @@ namespace MobileBDG
         public Home()
         {
             InitializeComponent();
-            Traducao();
+            TraducaoAsync();
+
         }
 
-        private void Traducao() {
+        private async Task TraducaoAsync()
+        {
             BarraBusca.Placeholder = Resx.Shared.Strings.TextSearchField;
         }
 
