@@ -114,6 +114,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\bdgLogoBlack.png" />
+    <Content Include="Assets\ic_next.png" />
+    <Content Include="Assets\ic_pause.png" />
+    <Content Include="Assets\ic_play.png" />
+    <Content Include="Assets\ic_previous.png" />
+    <Content Include="Assets\ic_stop.png" />
     <Content Include="Assets\ic_user.png" />
     <Content Include="Assets\ic_video.png" />
     <Content Include="Assets\ic_rotabdg.png" />

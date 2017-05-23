@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileBDG.Home">
     <StackLayout Style="{DynamicResource PainelPrincipal}" Orientation="Vertical" HorizontalOptions="FillAndExpand">
-        <SearchBar x:Name="BarraBusca" BackgroundColor="LightGray" TextChanged="BarraBusca_TextChanged" ></SearchBar>
-        <ListView IsPullToRefreshEnabled="True" Refreshing="ListaHome_Refreshing" ItemTapped="ListaHome_ItemTapped" x:Name="ListaHome">
+        <SearchBar x:Name="BarraBusca" BackgroundColor="LightGray" ></SearchBar>
+        <Button TextColor="White" BackgroundColor="Gray" HeightRequest="50" VerticalOptions="Center" Text="Play" WidthRequest="100" Clicked="Button_Clicked"></Button>
+        <!-- <ListView IsPullToRefreshEnabled="True" Refreshing="ListaHome_Refreshing" ItemTapped="ListaHome_ItemTapped" x:Name="ListaHome">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ImageCell ImageSource="{Binding PhotoUrl}" Text="{Binding Name}" Detail="{Binding Function}">
@@ -14,6 +15,6 @@
                     </ImageCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>
+        </ListView>-->
     </StackLayout>
 </ContentPage>
