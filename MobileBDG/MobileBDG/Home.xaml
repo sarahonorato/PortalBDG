@@ -4,17 +4,17 @@
              x:Class="MobileBDG.Home">
     <StackLayout Style="{DynamicResource PainelPrincipal}" Orientation="Vertical" HorizontalOptions="FillAndExpand">
         <SearchBar x:Name="BarraBusca" BackgroundColor="LightGray" ></SearchBar>
-        <Button TextColor="White" BackgroundColor="Gray" HeightRequest="50" VerticalOptions="Center" Text="Play" WidthRequest="100" Clicked="Button_Clicked"></Button>
-        <!-- <ListView IsPullToRefreshEnabled="True" Refreshing="ListaHome_Refreshing" ItemTapped="ListaHome_ItemTapped" x:Name="ListaHome">
+        <ListView x:Name="listView" ItemSelected="OnItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ImageCell ImageSource="{Binding PhotoUrl}" Text="{Binding Name}" Detail="{Binding Function}">
-                        <ImageCell.ContextActions>
-                            <MenuItem Text="Teste" ></MenuItem>
-                        </ImageCell.ContextActions>
-                    </ImageCell>
+                    <ViewCell>
+                        <StackLayout Padding="20,0,0,0" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                            <Label Text="{Binding Name}" VerticalTextAlignment="Center" />
+                            <Image Source="check.png" IsVisible="{Binding Done}" />
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>-->
+        </ListView>
     </StackLayout>
 </ContentPage>

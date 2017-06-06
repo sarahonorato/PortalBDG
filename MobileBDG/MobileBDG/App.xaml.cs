@@ -1,13 +1,18 @@
 
+using MobileBDG.Data;
 using Xamarin.Forms;
 
 namespace MobileBDG
 {
     public partial class App : Application
     {
+        public static TodoItemManager TodoManager { get; private set; }
+
         public App()
         {
             InitializeComponent();
+
+            TodoManager = new TodoItemManager(new RestService());
 
             // This lookup NOT required for Windows platforms - the Culture will be automatically set
             if (Device.OS == TargetPlatform.iOS || Device.OS == TargetPlatform.Android)

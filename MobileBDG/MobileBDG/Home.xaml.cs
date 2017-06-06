@@ -1,4 +1,8 @@
 ﻿
+using MobileBDG.Models;
+using MobileBDG.Util;
+using System;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,6 +12,8 @@ namespace MobileBDG
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Home : ContentPage
     {
+        bool alertShown = false;
+
         public Home()
         {
             InitializeComponent();
@@ -24,52 +30,62 @@ namespace MobileBDG
             Navigation.PushAsyncToPage(new Video(), this);
         }
 
-        //private async Task BarraBusca_TextChanged(object sender, TextChangedEventArgs e)
-        //{
-        //    try
-        //    {
-        //        ListaHome.BeginRefresh();
+        private async Task BarraBusca_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+               // ListaHome.BeginRefresh();
 
-        //        //if (string.IsNullOrWhiteSpace(e.NewTextValue))
-        //        //    ListaHome.ItemsSource = _container.Employees;
-        //        //else
-        //        //    ListaHome.ItemsSource = _container.Employees.Where(i => i.Name.Contains(e.NewTextValue));
+                //if (string.IsNullOrWhiteSpace(e.NewTextValue))
+                //    ListaHome.ItemsSource = _container.Employees;
+                //else
+                //    ListaHome.ItemsSource = _container.Employees.Where(i => i.Name.Contains(e.NewTextValue));
 
-        //        ListaHome.EndRefresh();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        await DisplayAlert("Erro", ex.Message, "Ok");
-        //    }
-        //}
+                //ListaHome.EndRefresh();
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Erro", ex.Message, "Ok");
+            }
+        }
 
-        //private async Task ListaHome_ItemTapped(object sender, ItemTappedEventArgs e)
-        //{
-        //    try
-        //    {
-        //        //var selectedItem = (Employee)e.Item;
 
-        //        //var employeePage = new EmployeePage(selectedItem);
-        //        //await Navigation.PushAsync(employeePage, true);
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
 
-        //        //ListaHome.SelectedItem = null;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        await DisplayAlert("Erro", ex.Message, "Ok");
-        //    }
-        //}
+            if (Constants.RestUrl.Contains("developer.xamarin.com"))
+            {
+                if (!alertShown)
+                {
+                    await DisplayAlert(
+                        "Hosted Back-End",
+                        "This app is running against Xamarin's read-only REST service. To create, edit, and delete data you must update the service endpoint to point to your own hosted REST service.",
+                        "OK");
+                    alertShown = true;
+                }
+            }
 
-        //private async Task ListaHome_Refreshing(object sender, EventArgs e)
-        //{
-        //    try
-        //    {
+            listView.ItemsSource = await App.TodoManager.GetTasksAsync();
+        }
 
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        await DisplayAlert("Erro", ex.Message, "Ok");
-        //    }
-        //}
+        void OnAddItemClicked(object sender, EventArgs e)
+        {
+            var todoItem = new TodoItem()
+            {
+                ID = Guid.NewGuid().ToString()
+            };
+            //var todoPage = new TodoItemPage(true);
+            //todoPage.BindingContext = todoItem;
+            //Navigation.PushAsync(todoPage);
+        }
+
+        void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var todoItem = e.SelectedItem as TodoItem;
+            //var todoPage = new TodoItemPage();
+            //todoPage.BindingContext = todoItem;
+            //Navigation.PushAsync(todoPage);
+        }
     }
 }
